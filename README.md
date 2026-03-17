@@ -82,7 +82,7 @@ https://www.kaggle.com/models/umagaba/code-summarization-tinycodell
 
 ## Paper
 
-Accepted at **IEEE FLLM 2025 – Vienna**
+Research Paper Accepted and Presented at IEEE 3rd International Conference on Foundational and Large Language Models (FLLM) 2025, Vienna, Austria (oral presentation)
 
 ## Tech Stack
 
