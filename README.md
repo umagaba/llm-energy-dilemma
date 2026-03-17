@@ -68,10 +68,3 @@ HuggingFace Transformers
 eco2AI  
 Pandas  
 NumPy
-
-## Repository Structure
-models/
-training/
-evaluation/
-emissions_tracking/
-notebooks/
