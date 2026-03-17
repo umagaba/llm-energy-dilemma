@@ -84,6 +84,9 @@ https://www.kaggle.com/models/umagaba/code-summarization-tinycodell
 
 Research Paper Accepted and Presented at IEEE 3rd International Conference on Foundational and Large Language Models (FLLM) 2025, Vienna, Austria (oral presentation)
 
+“Emissions and Performance Trade-off Between Small and Large Language Models”. 
+In: IEEE Xplore. URL: https://ieeexplore.ieee.org/document/11391221.
+
 ## Tech Stack
 
 Python  
