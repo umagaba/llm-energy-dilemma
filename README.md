@@ -12,19 +12,49 @@ The study evaluates whether smaller models can achieve competitive performance f
 
 ## Models
 
-### Small Language Models (fine-tuned)
-- GPT-2
-- DistilGPT2
-- Pythia
-- CodeT5
-- CodeParrot
-- TinyCodeLM
-- Helsinki-NLP translation models
-- T5-small
+#(All mentioned models hosted on Kaggle)
 
-Model sizes: **60M – 160M parameters**
+# CONTENT CREATION (STORY WRITING)
 
-### Large Language Models (API)
+DATASET - Writing Prompts Dataset (https://huggingface.co/datasets/euclaise/writingprompts) 
+
+Pythia (160M) 
+https://www.kaggle.com/models/umagaba/content-creation-eleutheraipythia-160m
+
+DistilGPT2 (82M)
+https://www.kaggle.com/models/umagaba/content-creation-distilgpt2
+
+GPT-2 (137M)
+https://www.kaggle.com/models/umagaba/content-creation-gpt2
+
+# TRANSLATION (ENGLISH TO FRENCH)
+
+DATASET - opus-en-fr
+
+t5-small (60.5M)
+https://www.kaggle.com/models/umagaba/translation-t5-small
+
+Helsinki-NLP/opus-mt-en-ROMANCE
+https://www.kaggle.com/models/umagaba/translation-helsinki-nlpopus-mt-en-roman
+
+Helsinki-NLP/opus-mt-en-fr
+https://www.kaggle.com/models/umagaba/translation-helsinki-nlpopus-mt-en-fr
+
+CODE SUMMARIZATION (PYTHON)
+
+DATASET - codesearchnet
+https://huggingface.co/datasets/sentence-transformers/codesearchnet
+
+codet5-small (60M)
+https://www.kaggle.com/models/umagaba/code_summarization-codet5-small
+
+codeparrot-small (110)
+https://www.kaggle.com/models/umagaba/code-summarization-codeparrot-small
+
+TinyCodeLM (150M)
+https://www.kaggle.com/models/umagaba/code-summarization-tinycodell
+
+### Large Language Models
 - Mistral-7B
 - Qwen-235B
 - DeepSeek-671B
@@ -44,17 +74,11 @@ Model sizes: **60M – 160M parameters**
 
 ## Key Results
 
-- Fine-tuned SLMs improved performance by:
-  - **28% (translation)**
-  - **15–20% (story generation)**
-  - **25% (code summarization)**
+<img width="2000" height="1414" alt="3" src="https://github.com/user-attachments/assets/544d61be-12be-4f1d-9321-2861dfbe3a5a" />
 
-- Inference emissions:
-  - **SLMs:** ~0.005–0.01 g CO₂/query  
-  - **LLMs:** up to ~3.6 g CO₂/query
+<img width="2000" height="1414" alt="6" src="https://github.com/user-attachments/assets/7fb20d84-d956-403b-b8d1-5d2e16d10ce6" />
 
-- Emissions reduction:
-  - **660× – 13,000× lower**
+<img width="2000" height="1414" alt="7" src="https://github.com/user-attachments/assets/7f0b1712-c8d0-421e-9c60-6268920d803f" />
 
 ## Paper
 
